@@ -7,6 +7,12 @@
 @import url(../blocks/table/__main/table__main.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_center/table__cell_center.css);
+@import url(../blocks/table/__divTable/table__divTable.css);
+@import url(../blocks/table/__divRow/table__divRow.css);
+@import url(../blocks/table/__divCell/table__divCell.css);
+@import url(../blocks/table/__divCell/_color/table__divCell_color.css);
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/selected.css);
 
 td {
     border: 1px solid rgb(168, 163, 163);
@@ -20,4 +26,10 @@ th {
     background-color: rgb(195, 231, 207);
     font-size: 12px;
     font-weight: normal;
+}
+
+input {
+    width: 75px;
+    height: 15px;
+    border: none;
 }

@@ -1,0 +1,9 @@
+.table__divTable {
+    display:  table;
+    width: auto;
+    border:1px solid  rgb(224, 220, 220);
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 12px;
+    align-items: center;
+}

@@ -1,0 +1,8 @@
+.table__divCell {
+  display: table-cell;
+  width: 75px;
+  height: 20px;
+  border: 1px solid rgb(211, 205, 205);
+  text-align: center;
+  line-height: 20px;
+}

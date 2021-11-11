@@ -1,0 +1,5 @@
+.table__divRow {
+  display: table-row;
+  width: 75px;
+  height: 20px;
+}
