@@ -7,3 +7,17 @@
 @import url(../blocks/table/__main/table__main.css);
 @import url(../blocks/table/__cell/table__cell.css);
 @import url(../blocks/table/__cell/_center/table__cell_center.css);
+
+td {
+    border: 1px solid rgb(168, 163, 163);
+    height: 15px;
+}
+
+th {
+    border: 1px solid rgb(168, 163, 163);
+    height: 15px;
+    width: 75px;
+    background-color: rgb(195, 231, 207);
+    font-size: 12px;
+    font-weight: normal;
+}

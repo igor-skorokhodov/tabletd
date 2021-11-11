@@ -1,3 +1,5 @@
 .table__cell_center {
     text-align: center;
+    font-size: 12px;
+    background-color: rgb(195, 231, 207);
 }
