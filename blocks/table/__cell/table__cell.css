@@ -1,0 +1,5 @@
+.table__cell {
+    border: 1px solid black;
+    font-weight: normal;
+    width: 75px;
+}
