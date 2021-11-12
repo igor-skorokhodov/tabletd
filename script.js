@@ -1,9 +1,13 @@
-let cells = document.querySelectorAll('.table');
+let cells = document.querySelectorAll(".table");
 
-cells.forEach((cell) => {
-  cell.addEventListener('mousedown', mouseDown);
-})
+window.addEventListener("mousedown", mouseDown);
 
-function mouseDown (e) {
-      e.target.classList.toggle('selected');
+//window.addEventListener("mouseup", mouseUp);
+
+function mouseDown() {
+  document.querySelector(".div-selected").classList.add("selected");
+}
+
+function mouseUp() {
+  document.querySelector(".div-selected").classList.remove("selected");
 }
